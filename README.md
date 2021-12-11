@@ -10,8 +10,9 @@
 # Home Assistant Automations
 
 ## Android Companion App Notification
+#### Example Android Actionable Notification
+Click on "Event Viewer" to view HassPyFrigate Event Viewer
 ![Android Actionable Notification](img/AndroidNotification.png)
-##### Android Actionable Notification
 The following Automation will send an actionable notification to the android companion app (May work with iOS as well)
 ```
 alias: HassPyFrigate Alert
