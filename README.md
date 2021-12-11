@@ -13,7 +13,7 @@
 #### Example Android Actionable Notification
 Click on "Event Viewer" to view HassPyFrigate Event Viewer
 ![Android Actionable Notification](img/AndroidNotification.png)
-The following Automation will send an actionable notification to the android companion app (May work with iOS as well)
+The following Automation will send an actionable notification to the android companion app (Should work with iOS as well)
 ```
 alias: HassPyFrigate Alert
 description: HassPyFrigate Object Detection Alerts Using Frigate
