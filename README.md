@@ -5,7 +5,7 @@
 # SERVER SIDE SETUP
  * This will run on a standard installation of Apache2.  Place /html/cgi-bin/hasspyfrigate.py in your cgi-bin location 
 #### (/usr/lib/cgi-bin is the default on Ubuntu)
-* Place /html/css/frigate.css into any web accessible folder (<html_root>/css preferred)
+* Place /html/css/hasspyfrigate.css into any web accessible folder (<html_root>/css preferred)
 
 # Home Assistant Automations
 
@@ -46,7 +46,7 @@ action:
           - action: URI
             title: Snapshot
             uri: >-
-              http://YOUR_SERVER/cgi-bin/hasspyfrigate.py?id={{trigger.payload_json['after']['id']}}&camera={{trigger.payload_json['after']['camera']}}&bbox=true&url=https://hass.jeandr.net/api/frigate/notifications/&time={{trigger.payload_json['after']['start_time']}}&css=../css/frigate.css#
+              http://YOUR_SERVER/cgi-bin/hasspyfrigate.py?id={{trigger.payload_json['after']['id']}}&camera={{trigger.payload_json['after']['camera']}}&bbox=true&url=https://hass.jeandr.net/api/frigate/notifications/&time={{trigger.payload_json['after']['start_time']}}&css=../css/hasspyfrigate.css#
         image: >-
           /api/frigate/notifications/{{trigger.payload_json['after']['id']}}/snapshot.jpg?bbox=1
         tag: '{{trigger.payload_json["after"]["id"]}}'
