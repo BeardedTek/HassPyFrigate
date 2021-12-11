@@ -1,18 +1,3 @@
-# HassPyFrigate
-## Python 3 CGI script for better looking notifications
-![v0.1](img/HassPyFrigate.png)
-
-# SERVER SIDE SETUP
- * This will run on a standard installation of Apache2.  Place /html/cgi-bin/hasspyfrigate.py in your cgi-bin location 
-#### (/usr/lib/cgi-bin is the default on Ubuntu)
-* Place /html/css/frigate.css into any web accessible folder (<html_root>/css preferred)
-
-# Home Assistant Automations
-
-## Android Companion App Notification
-The following Automation will send an actionable notification to the android companion app (May work with iOS as well)
-
-```
 alias: HassPyFrigate Alert
 description: HassPyFrigate Object Detection Alerts Using Frigate
 trigger:
@@ -50,5 +35,3 @@ action:
         tag: '{{trigger.payload_json["after"]["id"]}}'
         alert_once: true
 mode: single
-
-```
