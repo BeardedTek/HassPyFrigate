@@ -11,7 +11,7 @@
 
 ## Android Companion App Notification
 The following Automation will send an actionable notification to the android companion app (May work with iOS as well)
-
+![Android Actionable Notification](img/AndroidNotification.png)
 ```
 alias: HassPyFrigate Alert
 description: HassPyFrigate Object Detection Alerts Using Frigate
