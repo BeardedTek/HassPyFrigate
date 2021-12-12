@@ -54,3 +54,14 @@ action:
 mode: single
 
 ```
+
+# Planned Features:
+  - Notification History (Independent from Frigate)
+    - Save Notification
+      - This will live outside Frigate and permanently save:
+        - Event Data
+        - Snapshot
+        - Video Clip
+    - Delete Notification
+  - SQLite database connector
+  - External SQL servers (maybe)
