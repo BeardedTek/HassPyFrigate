@@ -1,0 +1,10 @@
+{
+  "url": "http://192.168.2.245:8123/api/frigate/notifications/",
+  "css": "../css/hasspyfrigate.css",
+  "title": "HassPyFrigate - Nicer Frigate Notifications",
+  "id": "none",
+  "camera": "",
+  "bbox": "1",
+  "event": "false",
+  "debug": "false"
+}

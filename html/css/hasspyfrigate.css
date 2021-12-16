@@ -1,10 +1,22 @@
 body{
     display:flex;
-    align-items: center;
+    align-items:stretch;
     justify-content: center;
     width: auto;
     height: auto;
     background-color:rgb(49, 49, 58)
+}
+body::-webkit-scrollbar {
+    width:5px;
+}
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow:inset 0 0 6px rgba(143, 143, 143, 0.5); 
+    border-radius:5px;
+}
+body::-webkit-scrollbar-thumb {
+    border-radius:5px;
+    -webkit-box-shadow: inset 0 0 6px black; 
+    backdrop-filter: blur(1px) contrast(0.5);
 }
 
 a{
@@ -15,37 +27,136 @@ a{
     color: rgb(229, 226, 226);
     text-align: center;
     font-size: 2em;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif';
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .container{
-    max-width: 1000px;
-    width: auto;
+    max-width: 1080px;
+    min-width: 720px;
+    width: 100%;
+    min-height: 50%;
+    max-height: 95%;
     height: auto;
-    background:rgb(229, 226, 226)
+    margin: 0.5em; 
 }
 
+@media screen and (max-width: 600px) {
+    .container{
+        min-width: 300px;
+    }
+}    
 .clip{
-    max-width: 1000px;
-    width: auto;
+    max-width: 1080px;
+    width: 100%;
     height: auto;
+    aspect-ratio: 16/9;
+}
+.clip video{
+    max-width: 1080px;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
 }
 .snap{
-    max-width: 1000px;
+    max-width: 100%;
     width: auto;
     height: auto;
 }
+.snap img{
+    max-width: 1080px;
+    min-width: 720px;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        min-width: 300px;
+        }
+}
+
 .hidden{
     display: none;
 }
 .menu{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between; 
     align-items: center;
-    max-width: 1000px;
-    width: auto;
+    overflow-wrap: break-word;
+    width: 100%;
     background-color:rgb(49, 49, 58)
+}
+.events_wrapper{ 
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+    max-width: 1080px;
+    width: 100%;
+    height: inherit;
+    aspect-ratio: 16 / 9;
+}
+.events_hidden{
+    display: none;
+}
+.events{ 
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+    max-width: 1080px;
+    width: 100%;
+    height: 100%;
+}
+div::-webkit-scrollbar {
+    width:5px;
+}
+div::-webkit-scrollbar-track {
+    -webkit-box-shadow:inset 0 0 6px rgba(143, 143, 143, 0.8); 
+    border-radius:5px;
+}
+div::-webkit-scrollbar-thumb {
+
+    border-radius:5px;
+    -webkit-box-shadow: inset 0 0 6px black; 
+    backdrop-filter: blur(1px) contrast(0.5);
+}
+
+.event{
+    width: 45%;
+    max-width: 1080px;
+    background-color: darkgrey;
+    text-align: center;
+    margin: 0.3em;
+    backdrop-filter: blur(1px) contrast(0.5);
+    padding: 0.25em;
+    border-radius: 10px;
+}
+@media screen and (max-width: 600px) {
+    .event{
+        width: 90%;
+        }
+}
+.event_text{
+    font-size: 2em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+.event_img{
+    max-width: 1080px;
+    width: 100%
+}
+.event:hover{
+    cursor: pointer;
+    backdrop-filter: blur(1px) contrast(0.1);
 }
 .menu_item{
     display:flex;
@@ -58,15 +169,23 @@ a{
     border-radius: 10px;
     border: 2px solid rgba(255,255,255,0.1);
     padding: 0.5em;
-    margin: 0.5em;
+    margin-bottom: 1em;
+    margin-top: 0.5 em; 
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.75em;
     text-align: center;
     color: rgba(255,255,255, 0.8);
-    width: 30%;
+    max-width: 40%;
+    min-width: 25%;
+    width: auto;
     height: 3em;
 }
 .menu_item:hover{
     cursor: pointer;
     backdrop-filter: blur(1px) contrast(0.3);
 }
+.menuimg{
+    width: 250px;
+    height: auto;
+}
+

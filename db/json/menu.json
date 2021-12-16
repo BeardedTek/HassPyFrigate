@@ -1,0 +1,20 @@
+{
+"snap": {
+        "title": "Snapshot",
+        "snap": "show",
+        "clip": "hide",
+        "events": "hide"
+        },
+"clip": {
+        "title": "Video Clip",
+        "snap": "hide",
+        "clip": "show",
+        "events": "hide"
+        },
+"events": {
+        "title": "Event Viewer",
+        "snap": "hide",
+        "clip": "hide",
+        "events": "show"
+        }
+}
