@@ -126,11 +126,13 @@ Include the following in your automations.yaml file in Home Assistant
 # Planned Features:
 - [x] Notification History (Independent from Frigate) ✔
 - [x] SQLite database connector ✔️
+- [ ] Authentication
+  - [ ] Access Tokens
+  - [ ] User Login
 - [ ] Acknowledge Notification (Progress made, ack field is in the database, just need to make the UI.
 - [ ] Delete Notification
 - [ ] Save independent copy from Frigate of:
   - [ ] Event Data
   - [ ] Snapshot
   - [ ] Video Clip
-
 - [ ] External SQL servers (maybe) ❓
