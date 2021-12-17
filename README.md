@@ -6,8 +6,17 @@
 #### PRERELEASE CONDITION: This is usable, however there are definitely bugs, security vulnerabilities, and severe "hackiness" going on at this point.
 
 ## Features:
-- [x] RESTful Interface to save independent SQLite Database of Events [SEE Home Assistant Automations below](#home-assistant-setup)
-
+- [x] Customizable CSS for themeing
+- [x] RESTful Interface to save independent SQLite Database of Events
+  - [SEE Home Assistant Automations below](#home-assistant-setup)
+- [x] SQLite backend
+- [x] JSON formatted configuration files
+  - [ ] Maybe convert to YAML❓
+- [x] Event Viewer
+- [x] Snapshot Viewer
+- [x] Clip Viewer
+- [ ] Independent Storage of Snapshots and Clips
+- [ ] MariaDB/Postgres backends❓
 ### v0.2 Snapshot View
 ![v0.2 Snapshot Viewer](img/HassPyFrigate-Snap.png)
 
