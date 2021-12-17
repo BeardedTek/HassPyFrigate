@@ -1,5 +1,5 @@
 {
-  "url": "http://192.168.2.245:8123/api/frigate/notifications/",
+  "url": "http(s)://<HOME_ASSISTANT_URL>/api/frigate/notifications/",
   "css": "../css/hasspyfrigate.css",
   "title": "HassPyFrigate - Nicer Frigate Notifications",
   "id": "none",
