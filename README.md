@@ -35,6 +35,19 @@
   - NOTE: /var/www/db/hasspyfrigate.sqlite will be created at first run.
   - NOTE: setting debug to true will output to stdout error log.
     - This will be in /var/log/apache2/error.log on Ubuntu.
+```
+{
+  "url": "http(s)://<HOME_ASSISTANT_URL>/api/frigate/notifications/",
+  "css": "../css/hasspyfrigate.css",
+  "title": "HassPyFrigate - Nicer Frigate Notifications",
+  "id": "none",
+  "camera": "",
+  "bbox": "1",
+  "event": "false",
+  "debug": "false"
+}
+```
+
 
 # Home Assistant Setup
 # RESTful Command
