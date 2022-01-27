@@ -1,7 +1,8 @@
 # HassPyFrigate
-## Python 3 CGI script for better looking notifications
+# *DEPRICATED*
+## https://github.com/BeardedTek-com/fEVR is the new version of this project.
 
-#### NOTE: I am a fairly novice Python developer.  Any tips/tricks/additions you feel are needed are MORE than welcome. Please fork and submit a pull request.
+## Python 3 CGI script for better looking notifications
 
 #### PRERELEASE CONDITION: This is usable, however there are definitely bugs, security vulnerabilities, and severe "hackiness" going on at this point.
 
