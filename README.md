@@ -1,6 +1,9 @@
 # HassPyFrigate
 # *DEPRICATED*
 ## https://github.com/BeardedTek-com/fEVR is the new version of this project.
+![fEVR-main](https://user-images.githubusercontent.com/93575915/151345453-be12005a-638b-423e-9417-6d66952a8b4e.png)
+
+
 
 ## Python 3 CGI script for better looking notifications
 
